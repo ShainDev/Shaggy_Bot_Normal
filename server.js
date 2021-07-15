@@ -7,7 +7,7 @@ server.all("/", (req, res) => {
 })
 
 function keepAlive() {
-  server.listen(86400, () => {
+  server.listen(65534, () => {
     console.log("Server is ready.")
   })
 }
